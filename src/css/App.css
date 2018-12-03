@@ -1,0 +1,112 @@
+.navbar {
+  display: inline-block;
+  padding: 5px 25px;
+  margin-top: -8px;
+  margin-left: -12px;
+  border-radius: 4px;
+  color: #FFEDF0;
+  border: none;
+  font-size: 20px;
+}
+
+.title {
+  text-align: center;
+  background-clip: black;
+}
+
+.titles {
+  margin-top: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.sub {
+  margin-top: 2px;
+}
+
+.form {
+  text-align: center;
+  background-clip: black;
+}
+
+.result {
+  position: absolute;
+  margin-left: 990px;
+  margin-top: -110px;
+  background: white;
+  -webkit-box-shadow: 0 2px 23px black;
+          box-shadow: 0 2px 23px black;
+}
+
+.button {
+  display: inline-block;
+  padding: 5px 25px;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  background-color: #E83350;
+  position: absolute;
+  margin-top: 46px;
+  margin-left: -296px;
+  -webkit-box-shadow: 0 2px 5px black;
+          box-shadow: 0 2px 5px black;
+}
+
+#weather {
+  display: inline-block;
+  padding: 5px 25px;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  background-color: #4BCFFA;
+  font-weight: bold;
+  -webkit-box-shadow: 0 2px 5px black;
+          box-shadow: 0 2px 5px black;
+}
+
+.slideanim {
+  visibility: hidden;
+}
+
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+            transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .button {
+    margin-left: -196px;
+  }
+}
+/*# sourceMappingURL=App.css.map */
